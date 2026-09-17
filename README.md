@@ -125,7 +125,7 @@ conversation (reset in the UI via the sidebar button, which issues a new
 ### 7.1 Clone and create a virtual environment
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/lalittanwar/travel_assistant
 cd travel-assistant
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
