@@ -137,8 +137,11 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 7.3 Pull the local LLM
+### 7.3 Download ollama tool and Pull the local LLM
 
+Download from https://ollama.com/download/windows
+
+Pull the local LLM
 ```bash
 ollama pull llama3.1:8b
 ```
@@ -151,11 +154,12 @@ curl http://localhost:11434
 If not, start it with `ollama serve` in a separate terminal, or open the
 Ollama desktop app.
 
-### 7.4 Build the knowledge base content
+### 7.4 Install playwright and Build the knowledge base content
 
 If `knowledge_base/content/*.md` files aren't already populated:
 
 ```bash
+playwright install
 cd knowledge_base
 python scrape_sources.py
 ```
