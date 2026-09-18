@@ -1,0 +1,24 @@
+# MCP (pinned <2 for langchain-mcp-adapters compatibility)
+mcp[cli]<2
+
+# LangChain / LangGraph
+langchain
+langchain-community
+langchain-text-splitters
+langchain-ollama
+langchain-mcp-adapters
+langgraph
+
+# RAG: embeddings + vector store
+sentence-transformers
+chromadb
+
+# MCP tool HTTP calls
+requests
+
+# Knowledge base scraping
+beautifulsoup4
+playwright
+
+# UI
+streamlit

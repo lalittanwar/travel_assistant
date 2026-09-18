@@ -191,22 +191,7 @@ mcp dev currency_server.py
 cd ..
 ```
 
-### 7.7 Test the agent via CLI
-
-```bash
-python test_agent_cli.py
-```
-
-Try:
-```
-You: what's the weather in singapore now?
-You: I'm planning a family trip with two young kids
-You: how many kids am I planning with?
-```
-The last question should be answered from memory (turn 2), without you
-repeating it.
-
-### 7.8 Run the full app (Streamlit UI)
+### 7.7 Run the full app (Streamlit UI)
 
 ```bash
 streamlit run app.py
